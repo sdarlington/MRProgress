@@ -355,6 +355,7 @@
 		7197CEDB18169F210022A19D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_DOCUMENTATION = NO;
 				DSTROOT = /tmp/MRProgress.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MRProgress/MRProgress-Prefix.pch";
@@ -367,6 +368,7 @@
 		7197CEDC18169F210022A19D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_DOCUMENTATION = NO;
 				DSTROOT = /tmp/MRProgress.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MRProgress/MRProgress-Prefix.pch";

@@ -2,6 +2,12 @@
 
 _PATH=$PATH
 
+if [ "$BUILD_DOCUMENTATION" = "NO" ];
+then
+  echo Skipping build of documentation.
+  exit
+fi ;
+
 which appledoc &> /dev/null
 if [[ $? == 1 ]]; then
 	PATH=$PATH:/usr/local/bin
